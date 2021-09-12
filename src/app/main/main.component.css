@@ -1,0 +1,18 @@
+.container {
+    width: 60%;
+    height: 100vh;
+    margin:auto;
+}
+
+.container table {
+    width: 100%;
+}
+
+.container > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
