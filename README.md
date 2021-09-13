@@ -2,6 +2,28 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
+## About
+
+Airbusinventory application is an Angular project which communicates with porduct server to perform fetch, add new, update and search by category fuctionality over Airbus inventory database
+
+## Low level Design
+
+This project uses Angular's HTTP Client service and Keyloak angular support to connect with products server secured end points
+
+### Configurations
+
+Configure the enviroment file as follows:
+
+    {
+      production: //true if using in prod or false,
+      Keycloak: {
+        authUrl: //keycloack authentication url,
+        clientId: //cilent name,
+        realmId: //realm name
+      },
+      productServerUrl: //product Server url 
+    };
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
