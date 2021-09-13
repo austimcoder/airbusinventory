@@ -36,14 +36,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Demo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Airbus Inventory App url: http://airbus-ui.s3-website.ap-south-1.amazonaws.com/
 
-## Running end-to-end tests
+Keycloack Serverurl: http://ec2-15-206-187-78.ap-south-1.compute.amazonaws.com/auth
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+*Note: Demo deployed with no SLA's to worry. Therfore, you may find some inconvenience while accessing. In that case, if you want to have a look, just ping me and we will figure it out*
