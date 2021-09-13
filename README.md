@@ -14,15 +14,15 @@ This project uses Angular's HTTP Client service and Keyloak angular support to c
 
 Configure the enviroment file as follows:
 
-{
-  production: //true if using in prod or false,
-  Keycloak: {
-    authUrl: //keycloack authentication url,
-    clientId: //cilent name,
-    realmId: //realm name
-  },
-  productServerUrl: //product Server url 
-};
+    {
+      production: //true if using in prod or false,
+      Keycloak: {
+        authUrl: //keycloack authentication url,
+        clientId: //cilent name,
+        realmId: //realm name
+      },
+      productServerUrl: //product Server url 
+    };
 
 ## Development server
 
