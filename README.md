@@ -40,6 +40,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Airbus Inventory App url: http://airbus-ui.s3-website.ap-south-1.amazonaws.com/
 
-Keycloack Serverurl: http://ec2-15-206-187-78.ap-south-1.compute.amazonaws.com/auth
+Keycloack Serverurl: http://ec2-15-206-187-78.ap-south-1.compute.amazonaws.com:9090/auth
 
 *Note: Demo deployed with no SLA's to worry. Therfore, you may find some inconvenience while accessing. In that case, if you want to have a look, just ping me and we will figure it out*
