@@ -16,14 +16,15 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { CreateNewComponent } from './create-new/create-new.component';
 import { UpdateComponent } from './update/update.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { environment } from 'src/environments/environment';
 
 function initializeKeycloak(keycloak: KeycloakService) {
   return () =>
     keycloak.init({
       config: {
-        url: 'http://localhost:8080/auth',
-        realm: 'airbuslogin',
-        clientId: 'airbuslogin',
+        url: environment.Keycloak.authUrl,
+        realm: environment.Keycloak.realmId,
+        clientId: environment.Keycloak.clientId,
       },
       initOptions: {
         onLoad: 'login-required',

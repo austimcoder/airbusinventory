@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { catchError } from 'rxjs/operators';
 import { Observable, throwError } from 'rxjs';
 import { Product } from '../models/product';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,7 @@ export class ProductService {
 
   
 
-  apiUrl: string = 'http://localhost:8090/productInventory';
+  apiUrl: string = `${environment.productServerUrl}/productInventory`;
   headers = new HttpHeaders().set('Content-Type', 'application/json');
 
 
